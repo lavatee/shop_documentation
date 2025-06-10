@@ -1,6 +1,6 @@
 # **Интернет-магазин**
 ---
-**Стек**: Микросервисная архитектура, Go, Gin, JWT, WebSockets, gRPC, Protocol Buffers, RabbitMQ, Redis, PostgreSQL, Docker, Docker-compose, Unit Testing, Git
+**Стек**: Микросервисная архитектура, Go, Gin, JWT, WebSockets, gRPC, Protocol Buffers, RabbitMQ, Redis, PostgreSQL, sqlx, GORM, Docker, Docker-compose, Unit Testing, Git
 ---
 
 ## **Микросервисы**
@@ -23,7 +23,7 @@
 | **Язык/Фреймворк**  | Go 1.22, Gin                                                              |
 | **API**             | REST (Gin), gRPC, Protocol Buffers                                        |
 | **Коммуникация**    | RabbitMQ (асинхронная обработка событий, идемпотентные консьюмеры)  |
-| **Базы данных**     | PostgreSQL (реляционные данные), Redis (кэширование)                                       |
+| **Базы данных**     | PostgreSQL (реляционные данные), Redis (кэширование), sqlx и gorm (библиотеки)                                      |
 | **Аутентификация**  | JWT (JSON Web Tokens)                                                     |
 | **Инфраструктура**  | Docker, Docker-compose  |
 | **Тестирование**    | Unit Testing             |
